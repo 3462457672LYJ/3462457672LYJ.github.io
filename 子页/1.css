@@ -1,0 +1,411 @@
+@charset "utf-8";
+/* CSS Document */
+*{  margin: 00;
+	padding: 00;
+}
+body{
+	background:url(img/01.jpg) top center no-repeat;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+.imgmid{
+    display:inline-block;
+    height:100%;
+    width:0px;
+    vertical-align: middle;
+}
+.nav{
+    width: 990px;
+    height: 234px;
+    display: inline-block;
+    margin-left: 457px;
+}
+.nav img{
+    margin-top: 100px;
+	margin-left: 30px;
+}
+.nav img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.nav .name{
+    margin-left: 158px;
+    margin-top: -110px;
+}
+.nav .name a{
+    font-size: 30px;
+    color:#007eb1;
+    text-decoration: none;
+}
+.nav .name a:hover{
+    color: #c4e3ed;
+}
+.nav ul{
+    margin-left: 155px;
+    margin-top: 40px;
+}
+.nav ul li{
+    display: inline;
+    margin: 6px;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover{
+    color:#0b96d1;
+}
+.nav .jin{
+    font-size: 15px;
+    margin-left: 880px;
+    margin-top: -80px;
+    color: gray;
+}
+.nav .fang{
+    font-size: 15px;
+    margin-left: 880px;
+    margin-top: -1px;
+    color: gray;
+}
+.nav span{
+    color: black;
+    font-family: "微软雅黑";
+}
+.information{
+    width: 990px;
+    height: 675px;
+    display: inline-block;
+    margin-left: 457px;
+    margin-top: 20px;
+}
+.information .one{
+    width: 163px;
+    height: 272px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: left;
+    display:block;
+}
+.information .one ul li{
+   line-height: 38.5px;
+   list-style: none;
+   text-align: center;
+}
+.information .one ul li a{
+   text-decoration: none;
+   color: #47494a;
+}
+.information .one li:hover{
+       background: #60d7fe;
+}
+.information .two{
+    width: 564px;
+    height: 67px;
+    background: #ceeeff;
+    border-radius: 5px;
+    margin-left: 22px;
+    float: left;
+}
+.two .wenzi{
+    color:black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.information .two span{
+    vertical-align:middle;
+    font-size: 50px;
+}
+.information .three{
+    width: 564px;
+    height: 265px;
+    background: #ceeeff;
+    border-radius: 5px;
+    margin-left: 22px;
+    float: left;
+    margin-top: 12px;
+}
+.information .three .othree{
+    width: 564px;
+    height: 44px;
+    float: left;
+}
+.information .three .othree span{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+    font-size: 20px;
+}
+.information .three .tthree{
+    width: 564px;
+    height: 83px;
+    float: left;
+}
+.information .three .tthree img{
+    display: inline-block;
+    float: left;
+    margin-top:15px;
+    margin-left: 15px;
+}
+.information .three .tthree .o{
+    margin-top: 17px;
+    margin-left: 104px;
+}
+.information .three .tthree span{
+    color:gray;
+}
+.information .three .tthree .t{
+    color: gray;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 76px;
+}
+.information .three .fthree{
+    width: 564px;
+    height: 95px;
+    float: left;
+}
+.information .three .fthree p{
+    display: inline-block;
+    float: right;
+    margin-top: 42px;
+    margin-right: 220px;
+}
+.information .three .fthree img{
+    margin-left: 15px;
+    border-radius:5px;
+    display: inline-block;
+}
+/* .information .three .fthree p{
+    margin-top: 15px;
+    margin-left: 15px;
+} */
+.information .three .dongtai{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.information .three .friend{
+    margin-left: 400px;
+    margin-top: -18px;
+}
+.information .four .size{
+    width: 75px;
+    height: 67px;
+    border-radius: 5px;
+    float: left;
+    background:#b6eafa;
+}
+.information .four .size .diyihang{
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 18px;
+}
+.information .four .size .dierhang{
+    font-size: 16px;
+    margin-left: 23px;
+
+}
+.information .four .wenzi{
+    margin-left: 98px;
+    margin-top: 17px;
+}
+.information .four .wenzi2{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 98px;
+}
+.information .four{
+    width: 220px;
+    height: 68px;
+    background: #ceeeff;
+    border-radius: 5px;
+    margin-left: 22px;
+    float: right;
+    margin-top: -345px;
+}
+.information .five{
+    width: 163px;
+    height: 382px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: left;
+    margin-top: -50px;
+}
+.information .five ul li{
+    list-style: none;
+    text-align: center;
+    line-height: 48.5px;
+}
+.information .five ul li:hover{
+    background:#60d7fe;
+}
+.information .five ul li a{
+    text-decoration:none;
+    color: rgb(77, 76, 76);
+}
+.information .six{
+    width: 563px;
+    height: 315px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: left;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+.information .six .osix{
+    width: 564px;
+    height:44px;
+    display: inline-block;
+    float: left;
+}
+.information .six .osix .dongtai{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.information .six .osix .friend{
+    margin-left: 400px;
+    margin-top: -18px;
+}
+.information .six .osix span{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 12px;
+    font-size: 20px;
+}
+.information .six .tsix{
+    width: 564px;
+    height:83px;
+    display: inline-block;
+    float: left;
+}
+.information .six .tsix img{
+    display: inline-block;
+    float: left;
+    margin-top:15px;
+    margin-left: 15px;
+}
+.information .six .tsix .o{
+    margin-top: 17px;
+    margin-left: 104px;
+}
+.information .six .tsix .t{
+    color: gray;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 76px;
+}
+.information .six .tsix span{
+    color:gray;
+}
+.information .six .ssix p{
+    display: inline-block;
+    float: right;
+    margin-top: 42px;
+    margin-right: 220px;
+}
+.information .six .ssix img{
+    margin-left: 15px;
+    border-radius:5px;
+    display: inline-block;
+}
+/* .information .six .fsix p{
+    margin-top: 40px;
+    margin-left: 15px;
+} */
+.information .fisix a{
+    text-decoration: none;
+    color: black;
+}
+.information .fisix a:hover{
+    color: gray;
+}
+.information .fisix p{
+    text-align: center;
+    margin-top:25px;
+}
+.information .six .ssix{
+    width: 564px;
+    height:98px;
+    display: inline-block;
+    float: left;
+}
+.information .six .fsix{
+    width: 564px;
+    height:44px;
+    display: inline-block;
+    float: left;
+}
+.information .six .fisix{
+    width: 564px;
+    height:46px;
+    display: inline-block;
+    float: left;
+}
+.information .seven{
+    width: 219px;
+    height: 126px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: right;
+    margin-top: -265px;
+}
+.information .seven ul{
+    width:100000000%;
+}
+.information .seven ul::after{
+    content:"";
+    display:block;
+    overflow: hidden;
+}
+.information .seven img{
+    border-radius: 5px;
+}
+.information .eight{
+    width: 219px;
+    height:130px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: right;
+    margin-top: -126px;
+}
+.information .eight .music{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.information .eight img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.information .eight img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.information .eight .mname{
+    margin-left: 105px;
+    margin-top: -50px;
+}
+.information .eight .sname{
+    margin-left: 130px;
+    margin-top: 2px;
+    font-size: 10px;
+}
+.information .nine{
+    width: 219px;
+    height: 311px;
+    background: #ceeeff;
+    border-radius: 5px;
+    float: right;
+    margin-top: 16px;
+}
+.information .nine .tpy{
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.information .nine img{
+    margin-left: 22px;
+    margin-top: 6px;
+}
